@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="icons/logo.png" />
+        <title>Jakub Zapadka - Portfolio</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+    <body>
+        <div id="main">
+            <nav>
+                <a href="#"><img src="icons/logo.png" alt="LOGO" /></a>
+                <div>
+                    <a href="#about-me">About me</a>
+                    <a href="#work">Work</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div id="show-menu">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </nav>
+            <div id="main__short_about_me">
+                <h1>Cześć</h1>
+                <span>
+                    From this site Jacob<br />
+                    Im Programmer<br />
+                    My favorite "programming" languages<br />
+                    <span style="color: orange">HTML</span>,
+                    <span style="animation: css 2s infinite">CSS</span>,
+                    <div class="javascript">
+                        <span style="color: yellow">J</span>AVA<span
+                            style="color: yellow"
+                            >S</span
+                        >CRIPT
+                    </div>
+                </span>
+            </div>
+            <img src="icons/logo.png" alt="Photo of me" />
+        </div>
+        <section id="about-me">
+            <header>
+                <h1 class="titles">
+                    <div></div>
+                    About me
+                    <div></div>
+                </h1>
+            </header>
+            <h2>about me</h2>
+            <p>
+                im 19 teenanger and i love programming, its my pasion since a
+                long time
+            </p>
+            <h2>teaching</h2>
+            <p>
+                im teaching programming mostly in home and school if u want more
+                info u can check cv below
+            </p>
+            <h2>work</h2>
+            <p>
+                my published work u can easly check on github or below in work
+                section
+            </p>
+            <h2>contact</h2>
+            <p>if u want contact check some divs below and write to me :)</p>
+            <a href="icons/logo.png" download>
+                <button class="btn">
+                    <i class="fa fa-download"></i> Download CV
+                </button>
+            </a>
+        </section>
+        <section id="work">
+            <header>
+                <h1 class="titles">
+                    <div></div>
+                    Work
+                    <div></div>
+                </h1>
+            </header>
+            <div id="work__container">
+                <div class="work__container__item">
+                    <div class="work__container__item__onhover">
+                        <div>SHOW</div>
+                    </div>
+                    <img src="icons/portfolio.png" alt="photo of portfolio" />
+                    <div class="work__container__item__info">
+                        <h2>Portfolio</h2>
+                        <span>HTML</span>
+                        <span>SASS</span>
+                        <span>TYPESCRIPT</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <header>
+                <h1 class="titles">
+                    <div></div>
+                    Contact
+                    <div></div>
+                </h1>
+            </header>
+            <div id="contact__container">
+                <div id="contact__container__left">
+                    <p>Phone number: +48 739 530 607</p>
+                    <p>E-mail: Kazet0302@gmail.com</p>
+                </div>
+                <div id="contact__container__right">
+                    <form
+                        action="https://formsubmit.co/Kazet0302@gmail.com"
+                        method="POST"
+                    >
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Title"
+                            id="user_message_title"
+                            required
+                        />
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="E-mail"
+                            id="user_email"
+                            required
+                        />
+                        <textarea
+                            name="message"
+                            id="user_message"
+                            cols="30"
+                            rows="5"
+                            placeholder="Message"
+                            required
+                        ></textarea>
+                        <input type="submit" value="Send" />
+                        <input type="hidden" name="_captcha" value="false" />
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>Author: Jakub Zapadka @2022</footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>

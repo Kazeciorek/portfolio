@@ -1,0 +1,12 @@
+{
+    "name": "sass",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "compiletsc": "tsc --watch",
+        "compilescss": "sass --watch css/style.scss css/style.css"
+    },
+    "author": "",
+    "license": "ISC"
+}
