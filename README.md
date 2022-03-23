@@ -13,3 +13,11 @@
     npm run compiletsc (for immediately compile ts)
     npm run compilescss (for immediately compile sass)
   run path_files/index.html
+## Setup
+To run this project, install it locally using npm:
+
+```
+$ cd ../lorem
+$ npm install
+$ npm start
+```
