@@ -2,6 +2,7 @@
 
 ## Previev
 
+https://kazeciorek.github.io/portfolio/
 ![portfolio](https://user-images.githubusercontent.com/80387968/159761596-11ff716a-86b5-42cb-8922-a343fa2512cb.png)
 
 ## Setup
