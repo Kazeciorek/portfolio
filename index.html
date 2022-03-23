@@ -70,7 +70,7 @@
             </p>
             <h2>contact</h2>
             <p>if u want contact check some divs below and write to me :)</p>
-            <a href="icons/logo.png" download>
+            <a href="cv.dosc" download>
                 <button class="btn">
                     <i class="fa fa-download"></i> Download CV
                 </button>
@@ -85,18 +85,26 @@
                 </h1>
             </header>
             <div id="work__container">
-                <div class="work__container__item">
-                    <div class="work__container__item__onhover">
-                        <div>SHOW</div>
+                <a
+                    href="https://github.com/Kazeciorek/portfolio"
+                    target="_blank"
+                >
+                    <div class="work__container__item">
+                        <div class="work__container__item__onhover">
+                            <div>SHOW</div>
+                        </div>
+                        <img
+                            src="icons/portfolio.png"
+                            alt="photo of portfolio"
+                        />
+                        <div class="work__container__item__info">
+                            <h2>Portfolio</h2>
+                            <span>HTML</span>
+                            <span>SASS</span>
+                            <span>TYPESCRIPT</span>
+                        </div>
                     </div>
-                    <img src="icons/portfolio.png" alt="photo of portfolio" />
-                    <div class="work__container__item__info">
-                        <h2>Portfolio</h2>
-                        <span>HTML</span>
-                        <span>SASS</span>
-                        <span>TYPESCRIPT</span>
-                    </div>
-                </div>
+                </a>
             </div>
         </section>
         <section id="contact">
@@ -141,6 +149,11 @@
                         ></textarea>
                         <input type="submit" value="Send" />
                         <input type="hidden" name="_captcha" value="false" />
+                        <input
+                            type="hidden"
+                            name="_next"
+                            value="https://kazeciorek.github.io/portfolio/"
+                        />
                     </form>
                 </div>
             </div>

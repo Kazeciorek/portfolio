@@ -66,7 +66,7 @@ JAVASCIRPT_BUTTON.addEventListener("click", () => {
             document
                 .querySelector<HTMLElement>("#main")
                 .appendChild<Node>(EXPLOSION1);
-            EXPLOSION1.style.top = randomheight + "px";
+            EXPLOSION1.style.top = randomheight -50+ "px";
             leftOrRight
                 ? (EXPLOSION1.style.left = randomwidth - 70 + "px")
                 : (EXPLOSION1.style.right = randomwidth - 70 + "px");
