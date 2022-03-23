@@ -356,6 +356,11 @@ footer {
     flex-direction: column;
   }
 }
+@media screen and (min-width: 540px) {
+  .animated {
+    animation: animated 1s;
+  }
+}
 @keyframes css {
   0% {
     color: red;
@@ -401,10 +406,6 @@ footer {
     transform: translateY(0);
   }
 }
-.animated {
-  animation: animated 1s;
-}
-
 @keyframes animated {
   0% {
     width: 50px;

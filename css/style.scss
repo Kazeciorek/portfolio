@@ -361,6 +361,12 @@ footer {
     }
 }
 
+@media screen and (min-width: 540px) {
+    .animated {
+        animation: animated 1s;
+    }
+}
+
 @keyframes css {
     0% {
         color: red;
@@ -408,10 +414,6 @@ footer {
         opacity: 1;
         transform: translateY(0);
     }
-}
-
-.animated {
-    animation: animated 1s;
 }
 
 @keyframes animated {
